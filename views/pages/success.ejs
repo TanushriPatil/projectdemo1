@@ -1,7 +1,19 @@
-<%- include ".../views/partials/header" %>
+<%- include('../partials/header') %>
+<title>Success</title>
 
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<h1 class="display-4">Wohoo!</h1>
+
+<p class="lead">You have successfully signed up, look forward to lots of awesome content!.</p>
+</div>
+</div>
+
+</body>
 <ul>
-  <% details.forEach(funtion(detail) { %>
+  <% details.forEach(function(detail) { %>
     <li><%= detail.firstname %></li>
     <li><%= detail.lastname %></li>
     <li><%= detail.email1 %></li>
@@ -9,4 +21,4 @@
 
 </ul>
 
-<%- include ".../views/partials/footer" %>
+<%- include("../partials/footer") %>
