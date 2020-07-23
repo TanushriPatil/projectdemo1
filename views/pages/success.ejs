@@ -1,0 +1,12 @@
+<%- include ".../views/partials/header" %>
+
+<ul>
+  <% details.forEach(funtion(detail) { %>
+    <li><%= detail.firstname %></li>
+    <li><%= detail.lastname %></li>
+    <li><%= detail.email1 %></li>
+<% }); %>
+
+</ul>
+
+<%- include ".../views/partials/footer" %>
